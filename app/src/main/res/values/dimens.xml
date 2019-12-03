@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="cuerpo_dialogo">24dp</dimen>
+    <dimen name="entre_medio">18dp</dimen>
+    <dimen name="boton">20dp</dimen>
+    <dimen name="normal">16dp</dimen>
+    <dimen name="campo_texto">12dp</dimen>
+    <dimen name="pequeño">8dp</dimen>
+</resources>

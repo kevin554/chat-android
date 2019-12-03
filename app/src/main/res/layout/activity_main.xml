@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="tefor.chat.activities.MainActivity">
+
+    <android.support.design.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/activityMain_contenedorCoordinatorLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/cuerpo_dialogo">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="@dimen/entre_medio"
+                android:paddingBottom="@dimen/entre_medio"
+                android:text="@string/necesitas_una_cuenta"
+                android:textAlignment="center"
+                android:textSize="16sp"/>
+
+            <Button
+                android:id="@+id/activityMain_crearCuentaButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/boton"
+                android:paddingBottom="@dimen/boton"
+                android:text="@string/crear_cuenta"
+                android:textSize="16sp"
+                android:textColor="@android:color/white"
+                android:background="@color/rojo"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="@dimen/entre_medio"
+                android:layout_marginBottom="@dimen/entre_medio"
+                android:background="@color/barraSeparadora"/>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/activityMain_nickTextInputEditTet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/normal"
+                    android:padding="@dimen/campo_texto"
+                    android:hint="@string/nick_hint"
+                    android:inputType="text"
+                    android:maxLength="8"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:id="@+id/activityMain_caracteresRestantesTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:text="@string/caracteres_restantes_demo"
+                android:textSize="12sp"/>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/activityMain_contraseñaTextInputEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/normal"
+                    android:layout_marginBottom="@dimen/entre_medio"
+                    android:padding="@dimen/campo_texto"
+                    android:hint="@string/contraseña_hint"
+                    android:inputType="textPassword"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <CheckBox
+                android:id="@+id/activityMain_recordarmeCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/recordarme"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/activityMain_contraseñaOlvidadaTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:paddingTop="@dimen/entre_medio"
+                android:paddingBottom="@dimen/entre_medio"
+                android:text="@string/olvidaste_tu_contraseña"
+                android:textSize="16sp"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="bottom">
+
+                <Button
+                    android:id="@+id/activityMain_entrarButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/boton"
+                    android:paddingBottom="@dimen/boton"
+                    android:text="@string/entrar"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/white"
+                    android:background="@color/rojo"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.design.widget.CoordinatorLayout>
+
+</ScrollView>

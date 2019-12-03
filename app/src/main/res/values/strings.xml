@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">TOTVS Nur</string>
+    <string name="title_activity_lista_mensajes">Mensajes</string>
+    <string name="necesitas_una_cuenta">Necesitas tener creada una cuenta para\niniciar la aplicación</string>
+    <string name="crear_cuenta">Crear Cuenta</string>
+    <string name="nick_hint">nick</string>
+    <string name="contraseña_hint">contrasena</string>
+    <string name="entrar">Entrar</string>
+    <string name="recordarme">Recordarme</string>
+    <string name="olvidaste_tu_contraseña">¿Olvidaste tu Contraseña?</string>
+    <string name="nick_vacio_error">debe colocar su nick</string>
+    <string name="contraseña_vacia_error">debe colocar su contrasena</string>
+    <string name="obteniendo_datos">obteniendo datos</string>
+    <string name="por_favor_espere">por favor espere…</string>
+    <string name="nick_registrado_error">Este nick ya se encuentra registrado</string>
+    <string name="cuenta_registrada">Se creó tu cuenta con éxito Ahora puedes ingresar</string>
+    <string name="nick_inexistente_error">El nick no existe</string>
+    <string name="contraseña_incorrecta_error">La contrasena es incorrecta</string>
+    <string name="nombre_demo">NOMBRE</string>
+    <string name="ultimo_mensaje_demo">Este es el ultimo mensaje que se recibio del remitente, la idea es que sea largo</string>
+    <string name="enviar">Enviar</string>
+    <string name="destinatario_vacio_error">el destinatario no puede estar vacio</string>
+    <string name="mensaje_vacio_error">el mensaje no puede estar vacio!</string>
+    <string name="detalle_mesajes_demo">AQUI IRAN LOS MENSAJES</string>
+    <string name="programado_por">Programado por</string>
+    <string name="nicolas_duran">Nicolas Duran</string>
+    <string name="iniciar_sesion">Iniciar Sesion</string>
+    <string name="contraseña_olvidada">create una nueva cuenta jajaj, saludos!</string>
+    <string name="actualizar">actualizar</string>
+    <string name="acerca_de_la_aplicacion">Acerca de la aplicacion</string>
+    <string name="cerrar_sesion">Cerrar sesion</string>
+    <string name="caracteres_restantes_demo">caracteres restantes</string>
+    <string name="caracteres_restantes">%1$d / 8</string>
+    <string name="mensaje_hint">mensaje</string>
+    <string name="conexion_servidor_error">Verifica tu conexion al servidor</string>
+</resources>

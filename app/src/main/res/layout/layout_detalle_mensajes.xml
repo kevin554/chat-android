@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layoutDetalleMensajes_cardView"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/normal"
+    android:layout_marginRight="@dimen/normal"
+    android:layout_marginTop="@dimen/pequeño"
+    android:layout_marginBottom="@dimen/pequeño"
+    app:cardCornerRadius="12dp">
+
+    <TextView
+        android:id="@+id/layoutDetalleMensajes_mensajeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/normal"
+        android:text="@string/detalle_mesajes_demo"
+        android:textSize="18sp"/>
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Chat</string>
+    <string name="title_activity_lista_mensajes">Messages</string>
+    <string name="necesitas_una_cuenta">You need an account created\nfor the app</string>
+    <string name="crear_cuenta">Create Account</string>
+    <string name="nick_hint">nick</string>
+    <string name="contraseña_hint">password</string>
+    <string name="entrar">Sign In</string>
+    <string name="recordarme">Remember me</string>
+    <string name="olvidaste_tu_contraseña">¿Did you forgot your password?</string>
+    <string name="nick_vacio_error">you must put your nick</string>
+    <string name="contraseña_vacia_error">yout must put your password</string>
+    <string name="obteniendo_datos">getting data</string>
+    <string name="por_favor_espere">please wait…</string>
+    <string name="nick_registrado_error">This nick is already in use</string>
+    <string name="cuenta_registrada">Your account was created successfully. Now you can Sing In</string>
+    <string name="nick_inexistente_error">The nick doesn\'t exists</string>
+    <string name="contraseña_incorrecta_error">Wrong password</string>
+    <string name="nombre_demo">NAME</string>
+    <string name="ultimo_mensaje_demo">This is the last message received, the main idea is that it need to be large</string>
+    <string name="enviar">Send</string>
+    <string name="destinatario_vacio_error">the mail can\'t be empty</string>
+    <string name="mensaje_vacio_error">the message can\'t be empty!</string>
+    <string name="detalle_mesajes_demo">HERE WILL BE THE MESSAGES</string>
+    <string name="programado_por">Programmed by</string>
+    <string name="nicolas_duran">Nicolas Duran</string>
+    <string name="iniciar_sesion">Sign In</string>
+    <string name="contraseña_olvidada">create a new account, cheers brother!</string>
+    <string name="actualizar">refresh</string>
+    <string name="acerca_de_la_aplicacion">About the app</string>
+    <string name="cerrar_sesion">Log out</string>
+    <string name="caracteres_restantes_demo">characters left</string>
+    <string name="caracteres_restantes">%1$d / 8</string>
+    <string name="mensaje_hint">message</string>
+</resources>

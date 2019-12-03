@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layoutListaMensajes_cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/normal"
+    android:layout_marginRight="@dimen/normal"
+    android:layout_marginTop="@dimen/pequeño"
+    android:layout_marginBottom="@dimen/pequeño"
+    app:cardCornerRadius="12dp">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/normal">
+
+        <TextView
+            android:id="@+id/rowLayout_nombreTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nombre_demo"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/rowLayout_ultimoMensajeTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ultimo_mensaje_demo"/>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
